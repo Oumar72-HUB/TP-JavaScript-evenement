@@ -1,0 +1,31 @@
+/* Style de la zone interactive */
+#zone {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+/* Réactivité pour les écrans de moins de 768px */
+@media (max-width: 768px) {
+    #zone {
+        width: 70%; 
+    }
+}
+
+/* Réactivité pour les écrans de moins de 480px */
+@media (max-width: 480px) {
+    #zone {
+        width: 90%; 
+        height: 150px;
+    }
+}
